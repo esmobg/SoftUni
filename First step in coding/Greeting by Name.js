@@ -1,8 +1,8 @@
 function greetings(input) {
-    let name = input([0]);
+    let name = input[0];
 
-    console.log(Hello, ${name}! )
-)
+    console.log(`Hello, ${name}!` )
 
 }
+
 greetings(["Niki"]);
