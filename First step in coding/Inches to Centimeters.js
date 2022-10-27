@@ -10,4 +10,4 @@ console.log(inch * 2.54 )
 
 }
 
-inchtocentimeters(["7"])
+inchtocentimeters(["5"])
