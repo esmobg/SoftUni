@@ -2,7 +2,7 @@ function concatenateData(input) {
 
     let name = input[0]
     let  family  = input[1]
-    let age = input [2]
+    let age = Number(input [2])
     let city = input [3]
 
 
