@@ -17,4 +17,4 @@ console.log(totalPrice);
 
 }
 
-BasketballEquipment(["320"])
+BasketballEquipment(["723"])

@@ -3,7 +3,7 @@ function FoodDelivery(input) {
     let FishCount = Number(input[1]);
     let vegicount = Number(input[2]);
 
-    let totalMenuPrice = (chickencount * 10) + (FishCount * 12) + (vegicount * 8);
+    let totalMenuPrice = (chickencount * 10.35) + (FishCount * 12.40) + (vegicount * 8.15);
 
 
    
@@ -26,4 +26,8 @@ function FoodDelivery(input) {
 
 }
 
-FoodDelivery(["2" , "4" , "3"]);
+FoodDelivery(["2 ",
+
+"4 ",
+
+"3 "]);
