@@ -1,4 +1,6 @@
 function repain(input) {
+    
+
 
     let naylon = Number(input[0])
     let paint = Number(input[1])
