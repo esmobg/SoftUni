@@ -9,3 +9,4 @@ function yardGreening (input){
     console.log(`The discount is: ${discount.toFixed(2)} lv.`);
 }
 
+yardGreening( ["56" , "48" , "35"]  );
