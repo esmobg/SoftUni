@@ -16,7 +16,7 @@ function launchBreak(input) {
     }
     else {
         let timeNeedet = epizodeDuration - timeleft;
-        console.log(`You don't have enough time to watch ${Movietitle}, you need ${math.ceil(timeleft)} more minutes.`)
+        console.log(`You don't have enough time to watch ${Movietitle}, you need ${Math.ceil(timeNeedet)} more minutes.`)
     }
 
 

@@ -1,24 +1,15 @@
-function time(input) {
-    let hours = Number(input[0]);
-    let mins  = Number(input[1]);
+function timePlus(input) {
+    let hour = Number(input[0]);
+    let min = Number(input[1]);
+    let newTotMinutes = hour * 60 + min + 15;
 
-    let totalTimeMins = (hours * 60) + mins;
-    let time15Min = totalTimeMins + 15;
-    let timeHour = Math.floor(time15Min / 60);
-    let timeMins = time15Min % 60;
+    hour = Math.floor(newTotMinutes / 60);
+    min = newTotMinutes % 60;
+    if (hour >= 24)
+        hour = hour - 24;
+    if (min < 10)
+        console.log(`${hour}:0${min}`);
+    else console.log(`${hour}:${min}`);
 
-    
- 
-    if (timeMins < 10)  {
-        console.log(`${timeHour}:0${timeMins}`);
-    }
-    else if (timeHour > 23) {
-        timeHour = 0;
-        console.log(`${timeHour}:${timeMins}`);
-    }   else {
-        console.log(`${timeHour}:${timeMins}`);
-    }
- 
- 
 }
-time(["12", "49"])
+timePlus(["0", "01"]);
