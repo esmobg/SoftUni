@@ -14,13 +14,15 @@ if (toys >=50 )  {
 } 
 
 let MoneyAfterRent = MoneyEarn * 0.90;
-let moneyleft =  Math.floor(MoneyAfterRent - VacantionPrice)
+let moneyleft =  Math.abs(MoneyAfterRent - VacantionPrice)
 
 if (MoneyEarn >= VacantionPrice) {
 
  
   console.log(`Yes! ${moneyleft.toFixed(2)} lv left.`)
 } else {
+
+  
 
   let moneyleft =  Math.abs(MoneyAfterRent - VacantionPrice)
 
