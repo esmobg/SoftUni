@@ -18,4 +18,4 @@ function Password(input) {
    
 }
 
-Password (["s3cr3t!P@ssw0rd"])
+Password (["QWERTY"])
